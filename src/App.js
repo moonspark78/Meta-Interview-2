@@ -10,6 +10,7 @@ function App() {
 
   return (
     <div className="page flex">
+    
         <Cart/>
         <button>Swap Odds</button>
         <Cart/>
