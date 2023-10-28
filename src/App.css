@@ -12,3 +12,8 @@
 .page{
   height: 100vh;
 }
+
+.cart-container{
+  border: solid 1px black;
+  flex-direction: column;
+} 
