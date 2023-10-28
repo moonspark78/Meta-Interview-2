@@ -1,4 +1,5 @@
 import React from 'react'
+import Item from "./Item"
 
 export const Cart = ({items, cartNumber}) => {
   return (
@@ -8,7 +9,7 @@ export const Cart = ({items, cartNumber}) => {
         items.map((item, index) =>{
           return (
             
-            <div key={index}>{item}</div>
+            <Item key={index} item={item} index={index}/>
           )
         })
       }
