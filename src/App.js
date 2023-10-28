@@ -10,10 +10,11 @@ function App() {
 
   return (
     <div className="page flex">
-    
+      <div className='flex container'>
         <Cart items={cartA} cartNumber={1}/>
-        <button>Swap Odds</button>
+        <button className='btn'>Swap Odds</button>
         <Cart items={cartB} cartNumber={2}/>
+      </div>
     </div>
   );
 }

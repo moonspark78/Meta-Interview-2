@@ -13,12 +13,23 @@
   height: 100vh;
 }
 
+.container{
+  gap: 24px;
+}
+
 .cart-container{
   border: solid 1px black;
   flex-direction: column;
+  padding: 30px;
+  border-radius: 14px;
+
 } 
 
 .to{
   text-decoration: underline;
-  
+  margin-bottom: 9px;
+}
+
+.btn{
+  padding: 9px;
 }

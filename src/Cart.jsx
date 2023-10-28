@@ -5,10 +5,10 @@ export const Cart = ({items, cartNumber}) => {
     <div className='cart-container'>
         <h3 className='to'>Cart {cartNumber}</h3>
       {
-        items.map((item) =>{
+        items.map((item, index) =>{
           return (
             
-            <div>{item}</div>
+            <div key={index}>{item}</div>
           )
         })
       }
