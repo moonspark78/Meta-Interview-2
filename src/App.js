@@ -11,9 +11,9 @@ function App() {
   return (
     <div className="page flex">
     
-        <Cart items={cartA}/>
+        <Cart items={cartA} cartNumber={1}/>
         <button>Swap Odds</button>
-        <Cart items={cartB}/>
+        <Cart items={cartB} cartNumber={2}/>
     </div>
   );
 }
